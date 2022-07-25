@@ -106,7 +106,7 @@ const LoadGame = () => {
 }
 
 function ChangeWallpaper(){
-    const wallpapers = ['/media/charWallpaper.jpg', '/media/eeveeWallpaper.jpg', '/media/wallpaper1.jpg', '/media/wallpaper2.jpg', '/media/wallpaper3.jpg', '/media/wallpaper4.jpg']
+    const wallpapers = ['media/charWallpaper.jpg', 'media/eeveeWallpaper.jpg', 'media/wallpaper1.jpg', 'media/wallpaper2.jpg', 'media/wallpaper3.jpg', 'media/wallpaper4.jpg']
     let pick = wallpapers[Math.floor(Math.random()* wallpapers.length)]
     wallpaper.src = pick
 
