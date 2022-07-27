@@ -80,3 +80,8 @@ body #wallpaper{
 .box2 img{
     height: 100%;
 }
+@media (max-width: 570px){
+    .box2{
+        display: none;
+    }
+}
